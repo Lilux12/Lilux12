@@ -3,20 +3,18 @@
 </div>
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=28&duration=2000&pause=1200&color=FF8C00&center=true&vCenter=true&width=700&lines=🔧+Делаю+телефоны+с+нуля;🎮+Пишу+игровые+консоли+на+ESP32;💻+Создаю+собственную+ОС;🚀+Python+%7C+C%2B%2B+%7C+Assembly" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=28&duration=2000&pause=1200&color=FF8C00&center=true&vCenter=true&width=700&lines=%F0%9F%94%A7+%D0%94%D0%B5%D0%BB%D0%B0%D1%8E+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%8B+%D1%81+%D0%BD%D1%83%D0%BB%D1%8F;%F0%9F%8E%AE+%D0%9F%D0%B8%D1%88%D1%83+%D0%B8%D0%B3%D1%80%D0%BE%D0%B2%D1%8B%D0%B5+%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D0%B8+%D0%BD%D0%B0+ESP32;%F0%9F%92%BB+%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D1%8E+%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%83%D1%8E+%D0%9E%D0%A1;%F0%9F%9A%80+Python+%7C+C%2B%2B+%7C+Assembly" alt="Typing SVG" />
 
 <br/><br/>
 
   <a href="https://github.com/Lilux12">
-    <img src="https://komarev.com/ghpvc/?username=Lilux12&style=for-the-badge&color=FF8C00&label=👁️+ПРОСМОТРЫ" alt="views"/>
+    <img src="https://komarev.com/ghpvc/?username=Lilux12&style=for-the-badge&color=FF8C00&label=ПРОСМОТРЫ" alt="views"/>
   </a>
   <a href="https://github.com/Lilux12?tab=followers">
-    <img src="https://img.shields.io/github/followers/Lilux12?style=for-the-badge&logo=github&labelColor=111&color=FF8C00&label=👥+ПОДПИСЧИКИ" alt="followers"/>
+    <img src="https://img.shields.io/github/followers/Lilux12?style=for-the-badge&logo=github&labelColor=111&color=FF8C00&label=ПОДПИСЧИКИ" alt="followers"/>
   </a>
   <a href="https://github.com/Lilux12?tab=stars">
-    <img src="https://img.shields.io/github/stars/Lilux12?style=for-the-badge&logo=github&labelColor=111&color=FF8C00&label=⭐+ЗВЁЗДЫ" alt="stars"/>
+    <img src="https://img.shields.io/github/stars/Lilux12?style=for-the-badge&logo=github&labelColor=111&color=FF8C00&label=ЗВЁЗДЫ" alt="stars"/>
   </a>
 
 </div>
