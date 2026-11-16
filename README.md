@@ -101,11 +101,7 @@
 ## 🐍 Вклад
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lilux12/Lilux12/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lilux12/Lilux12/output/github-snake.svg"/>
-    <img src="https://raw.githubusercontent.com/Lilux12/Lilux12/output/github-snake.svg" width="100%" alt="Змейка ползёт по графику вклада"/>
-  </picture>
+  <img src="https://raw.githubusercontent.com/Lilux12/Lilux12/output/github-snake-dark.svg" width="100%" alt="Змейка ползёт по графику вклада"/>
 </div>
 
 ---
