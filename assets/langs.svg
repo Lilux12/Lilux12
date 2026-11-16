@@ -12,14 +12,14 @@
   <text x="26" y="30" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.5" fill="#FF8C00">// TOP LANGUAGES</text>
   <text x="469" y="30" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#6E7681">по байтам кода</text>
 
-  <g clip-path="url(#langsClip)"><rect x="26.00" y="52" width="188.25" height="18" fill="#FF8C00"/><rect x="215.25" y="52" width="93.13" height="18" fill="#FFB347"/><rect x="309.39" y="52" width="69.88" height="18" fill="#FF5E00"/><rect x="380.27" y="52" width="69.60" height="18" fill="#D97706"/><rect x="450.87" y="52" width="16.82" height="18" fill="#8A5A00"/><rect x="468.68" y="52" width="0.32" height="18" fill="#3A3A44"/></g>
+  <g clip-path="url(#langsClip)"><rect x="26.00" y="52" width="185.32" height="18" fill="#FF8C00"/><rect x="212.32" y="52" width="98.54" height="18" fill="#FFB347"/><rect x="311.86" y="52" width="68.78" height="18" fill="#FF5E00"/><rect x="381.65" y="52" width="68.50" height="18" fill="#D97706"/><rect x="451.15" y="52" width="16.54" height="18" fill="#8A5A00"/><rect x="468.69" y="52" width="0.31" height="18" fill="#3A3A44"/></g>
   
   <circle cx="30" cy="98" r="4" fill="#FF8C00"/>
   <text x="43" y="102" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#C9D1D9">Python</text>
-  <text x="238" y="102" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">43%</text>
+  <text x="238" y="102" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">42%</text>
   <circle cx="259" cy="98" r="4" fill="#FFB347"/>
   <text x="272" y="102" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#C9D1D9">JavaScript</text>
-  <text x="467" y="102" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">21%</text>
+  <text x="467" y="102" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">22%</text>
   <circle cx="30" cy="128" r="4" fill="#FF5E00"/>
   <text x="43" y="132" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#C9D1D9">HTML</text>
   <text x="238" y="132" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">16%</text>
