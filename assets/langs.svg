@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" fill="none" role="img" aria-labelledby="langsTitle langsDesc">
+  <title id="langsTitle">Языки программирования Lilux12</title>
+  <desc id="langsDesc">Распределение языков по байтам кода в публичных репозиториях.</desc>
+
+  <defs>
+    <clipPath id="langsClip">
+      <rect x="26" y="52" width="443" height="18" rx="9"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="494" height="194" rx="8" fill="#0D0D0D" stroke="#2A2A33"/>
+  <text x="26" y="30" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.5" fill="#FF8C00">// TOP LANGUAGES</text>
+  <text x="469" y="30" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#6E7681">по байтам кода</text>
+
+  <g clip-path="url(#langsClip)"><rect x="26.00" y="52" width="188.25" height="18" fill="#FF8C00"/><rect x="215.25" y="52" width="93.13" height="18" fill="#FFB347"/><rect x="309.39" y="52" width="69.88" height="18" fill="#FF5E00"/><rect x="380.27" y="52" width="69.60" height="18" fill="#D97706"/><rect x="450.87" y="52" width="16.82" height="18" fill="#8A5A00"/><rect x="468.68" y="52" width="0.32" height="18" fill="#3A3A44"/></g>
+  
+  <circle cx="30" cy="98" r="4" fill="#FF8C00"/>
+  <text x="43" y="102" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#C9D1D9">Python</text>
+  <text x="238" y="102" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">43%</text>
+  <circle cx="259" cy="98" r="4" fill="#FFB347"/>
+  <text x="272" y="102" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#C9D1D9">JavaScript</text>
+  <text x="467" y="102" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">21%</text>
+  <circle cx="30" cy="128" r="4" fill="#FF5E00"/>
+  <text x="43" y="132" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#C9D1D9">HTML</text>
+  <text x="238" y="132" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">16%</text>
+  <circle cx="259" cy="128" r="4" fill="#D97706"/>
+  <text x="272" y="132" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#C9D1D9">Java</text>
+  <text x="467" y="132" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">16%</text>
+  <circle cx="30" cy="158" r="4" fill="#8A5A00"/>
+  <text x="43" y="162" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#C9D1D9">Shell</text>
+  <text x="238" y="162" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">4%</text>
+  <circle cx="259" cy="158" r="4" fill="#3A3A44"/>
+  <text x="272" y="162" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#C9D1D9">другое</text>
+  <text x="467" y="162" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6E7681">&lt;1%</text>
+</svg>
