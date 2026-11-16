@@ -101,7 +101,7 @@
 ## 🐍 Вклад
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Lilux12/Lilux12/output/github-snake-dark.svg" width="100%" alt="Змейка ползёт по графику вклада"/>
+  <img src="https://raw.githubusercontent.com/Lilux12/Lilux12/output/github-snake-dark.svg" width="72%" alt="Змейка ползёт по графику вклада"/>
 </div>
 
 ---
