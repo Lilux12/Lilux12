@@ -5,17 +5,17 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=900&color=FF8C00&center=true&vCenter=true&width=680&lines=%D0%9F%D0%B8%D1%88%D1%83%20%D0%BA%D0%BE%D0%B4%20%D1%81%2010%20%D0%BB%D0%B5%D1%82%3B%D0%A1%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D1%8E%20%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BE%20%D1%81%20%D0%BD%D1%83%D0%BB%D1%8F%3BC%20%2F%20C%2B%2B%20%2F%20Python%20%2F%20Java%20%2F%20JS%3BTemaOS%20%C2%B7%20TemaPhone%20%C2%B7%20TemaESP" alt="Пишу код с 10 лет; собираю железо с нуля; C / C++ / Python / Java / JS; TemaOS · TemaPhone · TemaESP"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=900&color=FF7A1A&center=true&vCenter=true&width=680&lines=%D0%9F%D0%B8%D1%88%D1%83%20%D0%BA%D0%BE%D0%B4%20%D1%81%2010%20%D0%BB%D0%B5%D1%82;%D0%A1%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D1%8E%20%D0%B6%D0%B5%D0%BB%D0%B5%D0%B7%D0%BE%20%D1%81%20%D0%BD%D1%83%D0%BB%D1%8F;C%20%2F%20C%2B%2B%20%2F%20Python%20%2F%20Java%20%2F%20JS;Backrooms%20%C2%B7%20Auto%20Sorter" alt="Пишу код с 10 лет; Собираю железо с нуля; C / C++ / Python / Java / JS; Backrooms · Auto Sorter"/>
 
   <br/><br/>
 
   <a href="https://github.com/Lilux12?tab=followers">
-    <img src="https://img.shields.io/github/followers/Lilux12?style=flat-square&labelColor=0D0D0D&color=FF8C00&label=followers" alt="followers"/>
+    <img src="https://img.shields.io/github/followers/Lilux12?style=flat-square&labelColor=0B0A12&color=FF7A1A&label=followers" alt="followers"/>
   </a>
   <a href="https://github.com/Lilux12">
-    <img src="https://komarev.com/ghpvc/?username=Lilux12&style=flat-square&color=FF8C00&label=views" alt="views"/>
+    <img src="https://komarev.com/ghpvc/?username=Lilux12&style=flat-square&color=FF7A1A&label=views" alt="views"/>
   </a>
-  <img src="https://img.shields.io/badge/building-TemaOS-FF8C00?style=flat-square&labelColor=0D0D0D" alt="building TemaOS"/>
+  <img src="https://img.shields.io/badge/сейчас-Backrooms_LAN-38BDF8?style=flat-square&labelColor=0B0A12" alt="Сейчас делаю Backrooms LAN"/>
 </div>
 
 ---
@@ -23,10 +23,10 @@
 ## 🧑‍💻 Обо мне
 
 Привет! Я **Тёма** (Lilux) — 12-летний разработчик и мейкер из России.
-Пишу код с ~10 лет: от прошивок для ESP32 и собственной ОС до браузерных игр.
+Пишу код с ~10 лет: от прошивок для ESP32 до браузерных игр и модов.
 
-- 🔭 Сейчас в работе: **TemaOS** — GUI-ОС для Orange Pi, **TemaPhone** и **TemaESP**.
-- 🎮 Недавно собрал **[Backrooms LAN](https://github.com/Lilux12/backrooms-lan)** — кооп-хоррор в браузере.
+- 🎮 Делаю **[Backrooms LAN](https://github.com/Lilux12/backrooms-lan)** — кооп-хоррор в браузере на 11 уровней.
+- ⛏️ Написал **[Auto Sorter](https://github.com/Lilux12/autosorter-mod)** — мод-автосортировщик для Minecraft Fabric.
 - 🧩 Люблю задачи, где всё нужно собрать с нуля: от схемы и пайки до интерфейса.
 - 💬 Открыт к идеям, коллаборациям и интересным задачам.
 
@@ -39,16 +39,16 @@
 
   <br/><br/>
 
-  <img src="https://img.shields.io/badge/ESP32-FF8C00?style=flat-square&logo=espressif&logoColor=0D0D0D" alt="ESP32"/>
-  <img src="https://img.shields.io/badge/PlatformIO-FF8C00?style=flat-square&logo=platformio&logoColor=0D0D0D" alt="PlatformIO"/>
-  <img src="https://img.shields.io/badge/Arduino-FF8C00?style=flat-square&logo=arduino&logoColor=0D0D0D" alt="Arduino"/>
-  <img src="https://img.shields.io/badge/Orange_Pi-FF8C00?style=flat-square&logo=linux&logoColor=0D0D0D" alt="Orange Pi"/>
-  <img src="https://img.shields.io/badge/Fabric-FF8C00?style=flat-square&logo=fabric&logoColor=0D0D0D" alt="Fabric"/>
+  <img src="https://img.shields.io/badge/ESP32-FF7A1A?style=flat-square&logo=espressif&logoColor=0B0A12" alt="ESP32"/>
+  <img src="https://img.shields.io/badge/PlatformIO-FF7A1A?style=flat-square&logo=platformio&logoColor=0B0A12" alt="PlatformIO"/>
+  <img src="https://img.shields.io/badge/Arduino-FF7A1A?style=flat-square&logo=arduino&logoColor=0B0A12" alt="Arduino"/>
+  <img src="https://img.shields.io/badge/Orange_Pi-FF7A1A?style=flat-square&logo=linux&logoColor=0B0A12" alt="Orange Pi"/>
+  <img src="https://img.shields.io/badge/Fabric-FF7A1A?style=flat-square&logo=fabric&logoColor=0B0A12" alt="Fabric"/>
 </div>
 
 ---
 
-## 🚀 Проекты
+## 🎃 Проекты
 
 <div align="center">
 <table>
@@ -61,18 +61,6 @@
     <td width="50%">
       <a href="https://github.com/Lilux12/autosorter-mod">
         <img src="https://raw.githubusercontent.com/Lilux12/Lilux12/main/assets/project-autosorter.svg" width="100%" alt="Auto Sorter — мод-автосортировщик для Minecraft Fabric"/>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/Lilux12/Archinstalltema">
-        <img src="https://raw.githubusercontent.com/Lilux12/Lilux12/main/assets/project-arch.svg" width="100%" alt="Arch Installer — TUI-установщик Arch Linux"/>
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/Lilux12?tab=repositories">
-        <img src="https://raw.githubusercontent.com/Lilux12/Lilux12/main/assets/more-card.svg" width="100%" alt="TemaOS, TemaPhone, TemaESP — личные проекты"/>
       </a>
     </td>
   </tr>

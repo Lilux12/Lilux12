@@ -17,8 +17,8 @@ jobs:
         with:
           github_user_name: Lilux12
           outputs: |
-            dist/github-snake.svg?color_snake=%23FF8C00&color_dots=%23E8E8EC,%23FFD9A8,%23FFB347,%23FF8C00,%23C96A00
-            dist/github-snake-dark.svg?color_snake=%23FF8C00&color_dots=%231B1B22,%235A3A00,%23A35A00,%23E07B00,%23FF8C00
+            dist/github-snake.svg?color_snake=%23FF7A1A&color_dots=%23EEF2F7,%23BAE6FD,%237DD3FC,%2338BDF8,%230284C7
+            dist/github-snake-dark.svg?color_snake=%23FF7A1A&color_dots=%231A1828,%230C4A6E,%230369A1,%230EA5E9,%2338BDF8
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4

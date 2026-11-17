@@ -12,13 +12,13 @@ if (!TOKEN) {
 
 const FONT =
   "ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace";
-const ACCENT = '#FF8C00';
-const TEXT = '#E6EDF3';
-const MUTED = '#8B949E';
-const DIM = '#6E7681';
-const BG = '#0D0D0D';
-const BORDER = '#2A2A33';
-const PALETTE = ['#FF8C00', '#FFB347', '#FF5E00', '#D97706', '#8A5A00', '#3A3A44'];
+const ACCENT = '#FF7A1A';
+const TEXT = '#FFFFFF';
+const MUTED = '#9CA3AF';
+const DIM = '#6B7280';
+const BG = '#0B0A12';
+const BORDER = '#2A2640';
+const PALETTE = ['#FF7A1A', '#38BDF8', '#FFFFFF', '#FDBA74', '#0EA5E9', '#3F3A55'];
 
 const query = `
   query ($login: String!) {
@@ -148,7 +148,7 @@ const statBlocks = stats
   .join('');
 
 const separators = statSeparators
-  .map((x) => `<path d="M${x} 52V96" stroke="#1F1F26"/>`)
+  .map((x) => `<path d="M${x} 52V96" stroke="#1E1B2E"/>`)
   .join('\n  ');
 
 const cell = 6;
@@ -168,7 +168,7 @@ const heatmap = weeks
       const x = gridX + weekIndex * (cell + gap);
       const y = gridY + day.weekday * (cell + gap);
       const opacity = opacityFor(day.contributionCount);
-      const fill = opacity === 0 ? '#1B1B22' : ACCENT;
+      const fill = opacity === 0 ? '#1A1828' : ACCENT;
       const fillOpacity = opacity === 0 ? 1 : opacity;
       return `<rect x="${x.toFixed(2)}" y="${y.toFixed(2)}" width="${cell}" height="${cell}" rx="1.5" fill="${fill}" opacity="${fillOpacity}"><title>${day.date}: ${day.contributionCount}</title></rect>`;
     }),
@@ -220,7 +220,7 @@ const legend = topLanguages
     const percentX = column === 0 ? 238 : 467;
     return `
   <circle cx="${x + 4}" cy="${y - 4}" r="4" fill="${PALETTE[index] || PALETTE[PALETTE.length - 1]}"/>
-  <text x="${x + 17}" y="${y}" font-family="${FONT}" font-size="13" fill="#C9D1D9">${escapeXml(language.name)}</text>
+  <text x="${x + 17}" y="${y}" font-family="${FONT}" font-size="13" fill="#E5E7EB">${escapeXml(language.name)}</text>
   <text x="${percentX}" y="${y}" text-anchor="end" font-family="${FONT}" font-size="12" fill="${DIM}">${escapeXml(percentLabel(language.size))}</text>`;
   })
   .join('');
