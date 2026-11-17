@@ -30,12 +30,12 @@
 
 ### ⚡ Быстрые факты
 
-| | |
-|---|---|
-| 🎂 Возраст | 13 лет |
-| 🌍 Откуда | Россия |
-| ⌨️ В коде | с 10 лет |
-| 🛠️ Делаю | игры, моды, железо |
+<table>
+<tr><td>🎂 Возраст</td><td><b>13 лет</b></td></tr>
+<tr><td>🌍 Откуда</td><td>Россия</td></tr>
+<tr><td>⌨️ В коде</td><td>с 10 лет</td></tr>
+<tr><td>🛠️ Делаю</td><td>игры, моды, железо</td></tr>
+</table>
 
 </td>
 </tr>
@@ -57,8 +57,6 @@
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=c,cpp,python,java,js,nodejs,threejs,linux,git,vscode&theme=light&perline=10" alt="C, C++, Python, Java, JavaScript, Node.js, Three.js, Linux, Git, VS Code"/>
-
-<br/><br/>
 
 <img src="https://img.shields.io/badge/ESP32-FFF1E6?style=for-the-badge&logo=espressif&logoColor=FF7A1A" alt="ESP32"/>
 <img src="https://img.shields.io/badge/Arduino-E0F2FE?style=for-the-badge&logo=arduino&logoColor=0284C7" alt="Arduino"/>
