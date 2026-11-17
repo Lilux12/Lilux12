@@ -10,15 +10,14 @@ if (!TOKEN) {
   process.exit(1);
 }
 
-const FONT =
-  "ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace";
+const FONT = "'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif";
 const ACCENT = '#FF7A1A';
-const TEXT = '#FFFFFF';
-const MUTED = '#9CA3AF';
-const DIM = '#6B7280';
-const BG = '#0B0A12';
-const BORDER = '#2A2640';
-const PALETTE = ['#FF7A1A', '#38BDF8', '#FFFFFF', '#FDBA74', '#0EA5E9', '#3F3A55'];
+const TEXT = '#1E293B';
+const MUTED = '#475569';
+const DIM = '#94A3B8';
+const BG = '#FFFFFF';
+const BORDER = '#F1E4D8';
+const PALETTE = ['#FF7A1A', '#38BDF8', '#FDBA74', '#0EA5E9', '#FFD7B5', '#CBD5E1'];
 
 const query = `
   query ($login: String!) {
@@ -148,7 +147,7 @@ const statBlocks = stats
   .join('');
 
 const separators = statSeparators
-  .map((x) => `<path d="M${x} 52V96" stroke="#1E1B2E"/>`)
+  .map((x) => `<path d="M${x} 52V96" stroke="#F1F5F9"/>`)
   .join('\n  ');
 
 const cell = 6;
@@ -168,7 +167,7 @@ const heatmap = weeks
       const x = gridX + weekIndex * (cell + gap);
       const y = gridY + day.weekday * (cell + gap);
       const opacity = opacityFor(day.contributionCount);
-      const fill = opacity === 0 ? '#1A1828' : ACCENT;
+      const fill = opacity === 0 ? '#F1F5F9' : ACCENT;
       const fillOpacity = opacity === 0 ? 1 : opacity;
       return `<rect x="${x.toFixed(2)}" y="${y.toFixed(2)}" width="${cell}" height="${cell}" rx="1.5" fill="${fill}" opacity="${fillOpacity}"><title>${day.date}: ${day.contributionCount}</title></rect>`;
     }),
@@ -179,8 +178,8 @@ const statsSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="19
   <title id="statsTitle">Статистика GitHub ${LOGIN}</title>
   <desc id="statsDesc">${formatNumber(contributions)} контрибуций, ${repoCount} репозиториев, ${stars} звёзд, ${followers} подписчиков. Активность за последний год.</desc>
 
-  <rect x="0.5" y="0.5" width="494" height="194" rx="8" fill="${BG}" stroke="${BORDER}"/>
-  <text x="26" y="30" font-family="${FONT}" font-size="10" letter-spacing="2.5" fill="${ACCENT}">// GITHUB STATS</text>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="18" fill="${BG}" stroke="${BORDER}"/>
+  <text x="26" y="30" font-family="${FONT}" font-size="10" font-weight="700" letter-spacing="2.5" fill="${ACCENT}">СТАТИСТИКА GITHUB</text>
   <text x="469" y="30" text-anchor="end" font-family="${FONT}" font-size="10" fill="${DIM}">обновлено ${today}</text>
 
   ${separators}
@@ -220,7 +219,7 @@ const legend = topLanguages
     const percentX = column === 0 ? 238 : 467;
     return `
   <circle cx="${x + 4}" cy="${y - 4}" r="4" fill="${PALETTE[index] || PALETTE[PALETTE.length - 1]}"/>
-  <text x="${x + 17}" y="${y}" font-family="${FONT}" font-size="13" fill="#E5E7EB">${escapeXml(language.name)}</text>
+  <text x="${x + 17}" y="${y}" font-family="${FONT}" font-size="13" fill="#334155">${escapeXml(language.name)}</text>
   <text x="${percentX}" y="${y}" text-anchor="end" font-family="${FONT}" font-size="12" fill="${DIM}">${escapeXml(percentLabel(language.size))}</text>`;
   })
   .join('');
@@ -235,8 +234,8 @@ const langsSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="495" height="19
     </clipPath>
   </defs>
 
-  <rect x="0.5" y="0.5" width="494" height="194" rx="8" fill="${BG}" stroke="${BORDER}"/>
-  <text x="26" y="30" font-family="${FONT}" font-size="10" letter-spacing="2.5" fill="${ACCENT}">// TOP LANGUAGES</text>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="18" fill="${BG}" stroke="${BORDER}"/>
+  <text x="26" y="30" font-family="${FONT}" font-size="10" font-weight="700" letter-spacing="2.5" fill="${ACCENT}">ЯЗЫКИ</text>
   <text x="469" y="30" text-anchor="end" font-family="${FONT}" font-size="10" fill="${DIM}">по байтам кода</text>
 
   <g clip-path="url(#langsClip)">${segments}</g>

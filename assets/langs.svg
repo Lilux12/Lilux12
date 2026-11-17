@@ -8,28 +8,28 @@
     </clipPath>
   </defs>
 
-  <rect x="0.5" y="0.5" width="494" height="194" rx="8" fill="#0B0A12" stroke="#2A2640"/>
-  <text x="26" y="30" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.5" fill="#FF7A1A">// TOP LANGUAGES</text>
-  <text x="469" y="30" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#6B7280">по байтам кода</text>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="18" fill="#FFFFFF" stroke="#F1E4D8"/>
+  <text x="26" y="30" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2.5" fill="#FF7A1A">ЯЗЫКИ</text>
+  <text x="469" y="30" text-anchor="end" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="10" fill="#94A3B8">по байтам кода</text>
 
-  <g clip-path="url(#langsClip)"><rect x="26.00" y="52" width="281.18" height="18" fill="#FF7A1A"/><rect x="308.18" y="52" width="83.42" height="18" fill="#38BDF8"/><rect x="392.61" y="52" width="30.49" height="18" fill="#FFFFFF"/><rect x="424.10" y="52" width="29.15" height="18" fill="#FDBA74"/><rect x="454.25" y="52" width="6.95" height="18" fill="#0EA5E9"/><rect x="462.20" y="52" width="6.80" height="18" fill="#3F3A55"/></g>
+  <g clip-path="url(#langsClip)"><rect x="26.00" y="52" width="281.18" height="18" fill="#FF7A1A"/><rect x="308.18" y="52" width="83.42" height="18" fill="#38BDF8"/><rect x="392.61" y="52" width="30.49" height="18" fill="#FDBA74"/><rect x="424.10" y="52" width="29.15" height="18" fill="#0EA5E9"/><rect x="454.25" y="52" width="6.95" height="18" fill="#FFD7B5"/><rect x="462.20" y="52" width="6.80" height="18" fill="#CBD5E1"/></g>
   
   <circle cx="30" cy="98" r="4" fill="#FF7A1A"/>
-  <text x="43" y="102" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#E5E7EB">JavaScript</text>
-  <text x="238" y="102" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6B7280">64%</text>
+  <text x="43" y="102" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="13" fill="#334155">JavaScript</text>
+  <text x="238" y="102" text-anchor="end" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="12" fill="#94A3B8">64%</text>
   <circle cx="259" cy="98" r="4" fill="#38BDF8"/>
-  <text x="272" y="102" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#E5E7EB">Python</text>
-  <text x="467" y="102" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6B7280">19%</text>
-  <circle cx="30" cy="128" r="4" fill="#FFFFFF"/>
-  <text x="43" y="132" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#E5E7EB">Java</text>
-  <text x="238" y="132" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6B7280">7%</text>
-  <circle cx="259" cy="128" r="4" fill="#FDBA74"/>
-  <text x="272" y="132" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#E5E7EB">HTML</text>
-  <text x="467" y="132" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6B7280">7%</text>
-  <circle cx="30" cy="158" r="4" fill="#0EA5E9"/>
-  <text x="43" y="162" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#E5E7EB">Shell</text>
-  <text x="238" y="162" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6B7280">2%</text>
-  <circle cx="259" cy="158" r="4" fill="#3F3A55"/>
-  <text x="272" y="162" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#E5E7EB">другое</text>
-  <text x="467" y="162" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#6B7280">2%</text>
+  <text x="272" y="102" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="13" fill="#334155">Python</text>
+  <text x="467" y="102" text-anchor="end" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="12" fill="#94A3B8">19%</text>
+  <circle cx="30" cy="128" r="4" fill="#FDBA74"/>
+  <text x="43" y="132" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="13" fill="#334155">Java</text>
+  <text x="238" y="132" text-anchor="end" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="12" fill="#94A3B8">7%</text>
+  <circle cx="259" cy="128" r="4" fill="#0EA5E9"/>
+  <text x="272" y="132" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="13" fill="#334155">HTML</text>
+  <text x="467" y="132" text-anchor="end" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="12" fill="#94A3B8">7%</text>
+  <circle cx="30" cy="158" r="4" fill="#FFD7B5"/>
+  <text x="43" y="162" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="13" fill="#334155">Shell</text>
+  <text x="238" y="162" text-anchor="end" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="12" fill="#94A3B8">2%</text>
+  <circle cx="259" cy="158" r="4" fill="#CBD5E1"/>
+  <text x="272" y="162" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="13" fill="#334155">другое</text>
+  <text x="467" y="162" text-anchor="end" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="12" fill="#94A3B8">2%</text>
 </svg>

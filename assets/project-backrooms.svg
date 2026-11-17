@@ -1,34 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" fill="none" role="img" aria-labelledby="p1Title p1Desc">
-  <title id="p1Title">Backrooms LAN</title>
-  <desc id="p1Desc">Кооп-хоррор в браузере: 11 уровней, двойник Skin Stealer, игра по локальной сети.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="210" viewBox="0 0 495 210" fill="none" role="img" aria-labelledby="t1 d1">
+  <title id="t1">Backrooms LAN</title>
+  <desc id="d1">Кооп-хоррор в браузере: 11 уровней, двойник-оборотень и игра по локальной сети.</desc>
   <defs>
-    <linearGradient id="p1Line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0.85"/>
-      <stop offset="55%" stop-color="#38BDF8" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#FF7A1A" stop-opacity="0"/>
-    </linearGradient>
+    <linearGradient id="bar1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#FF7A1A"/><stop offset="100%" stop-color="#38BDF8"/></linearGradient>
+    <clipPath id="c1"><rect width="495" height="210" rx="18"/></clipPath>
   </defs>
-
-  <rect x="0.5" y="0.5" width="494" height="194" rx="8" fill="#0B0A12" stroke="#2A2640"/>
-  <rect x="0" y="0" width="495" height="2" fill="url(#p1Line)"/>
-  <text x="469" y="118" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="86" font-weight="800" fill="#FF7A1A" opacity="0.05">01</text>
-
-  <text x="26" y="30" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" letter-spacing="2.5" fill="#FF7A1A">// PROJECT 01</text>
-  <text x="26" y="66" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="24" font-weight="700" fill="#FFFFFF">Backrooms LAN</text>
-  <text x="26" y="94" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9CA3AF">Кооп-хоррор в браузере: 11 уровней,</text>
-  <text x="26" y="113" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#9CA3AF">двойник-оборотень и игра по сети.</text>
-
-  <g font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11">
-    <rect x="26" y="128" width="84" height="22" rx="4" fill="#FF7A1A" fill-opacity="0.08" stroke="#FF7A1A" stroke-opacity="0.45"/>
-    <text x="35" y="143" fill="#38BDF8">JavaScript</text>
-    <rect x="118" y="128" width="71" height="22" rx="4" fill="#FF7A1A" fill-opacity="0.08" stroke="#FF7A1A" stroke-opacity="0.45"/>
-    <text x="127" y="143" fill="#38BDF8">Three.js</text>
-    <rect x="197" y="128" width="64" height="22" rx="4" fill="#FF7A1A" fill-opacity="0.08" stroke="#FF7A1A" stroke-opacity="0.45"/>
-    <text x="206" y="143" fill="#38BDF8">Node.js</text>
+  <g clip-path="url(#c1)">
+    <rect width="495" height="210" fill="#FFFFFF"/>
+    <rect width="495" height="5" fill="url(#bar1)"/>
+    <circle cx="470" cy="40" r="70" fill="#38BDF8" opacity="0.07"/>
   </g>
-
-  <path d="M26 162H469" stroke="#1E1B2E"/>
-  <text x="26" y="182" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#E5E7EB">Lilux12 / backrooms-lan</text>
-  <text x="469" y="182" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="700" fill="#FF7A1A">→</text>
+  <rect x="0.5" y="0.5" width="494" height="209" rx="18" stroke="#F1E4D8"/>
+  <g transform="translate(26 30)"><rect width="44" height="44" rx="12" fill="#FFF1E6"/><rect x="13" y="9" width="18" height="27" rx="2" fill="#FF7A1A"/><circle cx="27" cy="23" r="1.8" fill="#FFFFFF"/><rect x="10" y="35" width="24" height="3" rx="1.5" fill="#38BDF8"/></g>
+  <g font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif">
+    <text x="84" y="50" font-size="11" font-weight="700" letter-spacing="2.5" fill="#FF7A1A">ПРОЕКТ 01</text>
+    <text x="84" y="74" font-size="23" font-weight="800" fill="#1E293B">Backrooms LAN</text>
+    <text x="26" y="104" font-size="14" fill="#475569">Кооп-хоррор в браузере: 11 уровней,</text>
+    <text x="26" y="122" font-size="14" fill="#475569">двойник-оборотень и игра по локальной сети.</text>
+  </g>
+  <g font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="12" font-weight="600">
+    <rect x="26" y="132" width="96" height="26" rx="13" fill="#FFF1E6"/>
+    <text x="74" y="149.5" text-anchor="middle" fill="#C2410C">JavaScript</text>
+    <rect x="130" y="132" width="81" height="26" rx="13" fill="#E0F2FE"/>
+    <text x="170" y="149.5" text-anchor="middle" fill="#0369A1">Three.js</text>
+    <rect x="219" y="132" width="73" height="26" rx="13" fill="#FFF1E6"/>
+    <text x="255" y="149.5" text-anchor="middle" fill="#C2410C">Node.js</text>
+  </g>
+  <path d="M26 174H469" stroke="#F1F5F9"/>
+  <g font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif">
+    <text x="26" y="196" font-size="13" fill="#64748B">github.com/Lilux12/backrooms-lan</text>
+    <text x="469" y="197" text-anchor="end" font-size="15" font-weight="700" fill="#FF7A1A">открыть →</text>
+  </g>
 </svg>

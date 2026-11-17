@@ -1,97 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-labelledby="bannerTitle bannerDesc">
-  <title id="bannerTitle">Tema (Lilux) — developer and maker</title>
-  <desc id="bannerDesc">Dark Halloween terminal-style banner: pumpkin orange, white and sky blue, crescent moon and bats: Tema // Lilux, 12 years old, Russia, coding since 10.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-labelledby="bTitle bDesc">
+  <title id="bTitle">Привет, я Тёма</title>
+  <desc id="bDesc">Светлый баннер: «Привет, я Тёма», 13 лет, разработчик и мейкер из России. Справа тыква, месяц и летучие мыши.</desc>
 
   <defs>
-    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="55%" stop-color="#FFE8D6"/>
-      <stop offset="100%" stop-color="#FF7A1A"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF6EC"/>
+      <stop offset="55%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EAF6FE"/>
     </linearGradient>
-    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#FF7A1A" stop-opacity="0"/>
-      <stop offset="35%" stop-color="#FF7A1A" stop-opacity="0.9"/>
-      <stop offset="65%" stop-color="#38BDF8" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#FF7A1A" stop-opacity="0"/>
+    <linearGradient id="under" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF7A1A"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
     </linearGradient>
-    <radialGradient id="vignette" cx="50%" cy="45%" r="75%">
-      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    <radialGradient id="pumpkin" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#FFA45C"/>
+      <stop offset="100%" stop-color="#F26A0A"/>
     </radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#17152A" stroke-width="1"/>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#E2E8F0"/>
     </pattern>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="9" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
     </filter>
-    <filter id="bigBlur" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="55"/>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#F26A0A" flood-opacity="0.22"/>
     </filter>
     <style>
-      .cursor { animation: blink 1.1s steps(1) infinite; }
-      .sparkle { animation: twinkle 3.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-      .glow { animation: breathe 7s ease-in-out infinite; }
-      .bat { animation: flap 6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-      @keyframes flap { 0%, 100% { transform: translate(0, 0) scaleY(1); } 25% { transform: translate(6px, -4px) scaleY(.6); } 50% { transform: translate(12px, 2px) scaleY(1); } 75% { transform: translate(6px, 5px) scaleY(.6); } }
-      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-      @keyframes twinkle { 0%, 100% { opacity: .25; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.1); } }
-      @keyframes breathe { 0%, 100% { opacity: .06; } 50% { opacity: .13; } }
+      .float { animation: float 5s ease-in-out infinite; }
+      .bat { animation: bat 7s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .wave { animation: wave 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: 70% 80%; }
+      .twinkle { animation: tw 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      @keyframes bat { 0%, 100% { transform: translate(0, 0) scaleY(1); } 25% { transform: translate(8px, -6px) scaleY(.55); } 50% { transform: translate(16px, 0) scaleY(1); } 75% { transform: translate(8px, 6px) scaleY(.55); } }
+      @keyframes wave { 0%, 60%, 100% { transform: rotate(0); } 15% { transform: rotate(16deg); } 30% { transform: rotate(-8deg); } 45% { transform: rotate(12deg); } }
+      @keyframes tw { 0%, 100% { opacity: .3; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.1); } }
     </style>
   </defs>
 
-  <rect width="1200" height="320" fill="#08070E"/>
-  <rect width="1200" height="320" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#dots)" opacity="0.7"/>
+  <circle cx="120" cy="40" r="150" fill="#FF7A1A" opacity="0.16" filter="url(#blur)"/>
+  <circle cx="1080" cy="320" r="170" fill="#38BDF8" opacity="0.22" filter="url(#blur)"/>
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="24" stroke="#F3E3D3"/>
 
-  <ellipse class="glow" opacity="0.16" cx="130" cy="10" rx="340" ry="230" fill="#FF7A1A" filter="url(#bigBlur)"/>
-  <ellipse class="glow" opacity="0.16" cx="1090" cy="330" rx="360" ry="240" fill="#38BDF8" filter="url(#bigBlur)"/>
-  <rect width="1200" height="320" fill="url(#vignette)"/>
-
-  <!-- left accent -->
-  <rect x="56" y="72" width="2" height="176" fill="#FF7A1A" opacity="0.55"/>
-
-  <!-- labels -->
-  <text x="80" y="82" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="4" fill="#9CA3AF">// DEVELOPER · MAKER · BUILDER</text>
-
-  <!-- name -->
-  <text x="74" y="182" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="92" font-weight="800" letter-spacing="2" fill="url(#titleGrad)" filter="url(#softGlow)">TEMA</text>
-  <text x="322" y="178" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="23" font-weight="600" letter-spacing="3" fill="#FF7A1A">// LILUX</text>
-
-  <text x="80" y="218" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#E5E7EB">12 y.o. · Россия · в коде с 10 лет</text>
-
-  <!-- хеллоуин: месяц, летучие мыши, искры -->
-  <circle cx="600" cy="92" r="46" fill="#38BDF8" opacity="0.10" filter="url(#bigBlur)"/>
-  <circle cx="600" cy="92" r="30" fill="#E0F2FE"/>
-  <circle cx="614" cy="82" r="27" fill="#08070E"/>
-  <g class="bats" fill="#FF7A1A">
-    <path class="bat" d="M520 70c4-6 9-8 13-5 2-4 5-5 7-3 2-2 5-1 7 3 4-3 9-1 13 5-5-2-9-1-11 3-2-2-4-3-6-2-2-1-4 0-6 2-2-4-6-5-11-3z" opacity="0.9"/>
-    <path class="bat" style="animation-delay:-2s" d="M640 140c3-4 6-5 9-3 1-3 3-3 5-2 1-1 3-1 5 2 3-2 6-1 9 3-4-1-6 0-8 2-1-1-3-2-4-1-1-1-3 0-4 1-2-2-4-3-8-2z" opacity="0.75"/>
-    <path class="bat" style="animation-delay:-4s" d="M560 150c2-3 4-4 6-2 1-2 2-2 3-1 1-1 2-1 3 1 2-1 4 0 6 2-3-1-4 0-5 1-1 0-2-1-3 0-1 0-2 0-3 1-1-1-3-2-5-1z" opacity="0.6"/>
-  </g>
-  <path class="sparkle" d="M548 112 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4 z" fill="#38BDF8" opacity="0.7"/>
-
-  <!-- terminal card -->
-  <g>
-    <rect x="680" y="50" width="440" height="220" rx="14" fill="#110F1C" stroke="#2A2640"/>
-    <path d="M680 86H1120" stroke="#2A2640"/>
-    <circle cx="704" cy="68" r="5" fill="#FF5F56"/>
-    <circle cx="722" cy="68" r="5" fill="#FFBD2E"/>
-    <circle cx="740" cy="68" r="5" fill="#27C93F"/>
-    <text x="1098" y="73" text-anchor="end" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="2" fill="#6B7280">bash</text>
-
-    <text x="700" y="116" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#FF7A1A">$ <tspan fill="#FFFFFF">whoami</tspan></text>
-    <text x="700" y="140" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#E5E7EB">Tema — developer &amp; maker</text>
-
-    <text x="700" y="168" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#FF7A1A">$ <tspan fill="#FFFFFF">cat stack.txt</tspan></text>
-    <text x="700" y="192" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#E5E7EB">C/C++ · Python · Java · JS</text>
-
-    <text x="700" y="220" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#FF7A1A">$ <tspan fill="#FFFFFF">uptime</tspan></text>
-    <text x="700" y="244" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#E5E7EB">coding since ~10 y.o.</text>
-    <rect class="cursor" x="888" y="232" width="8" height="15" fill="#FF7A1A"/>
+  <!-- текст -->
+  <g font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif">
+    <text x="84" y="104" font-size="18" font-weight="700" letter-spacing="5" fill="#FF7A1A">ПРИВЕТ, Я</text>
+    <text x="78" y="212" font-size="124" font-weight="800" letter-spacing="-2" fill="#1E293B">Тёма</text>
+    <rect x="84" y="232" width="236" height="7" rx="3.5" fill="url(#under)"/>
+    <text x="84" y="278" font-size="21" fill="#475569">13 лет · разработчик и мейкер · Россия</text>
   </g>
 
-  <rect x="0" y="317" width="1200" height="3" fill="url(#lineGrad)"/>
+  <!-- месяц и звёзды -->
+  <g class="float">
+    <circle cx="1046" cy="92" r="40" fill="#38BDF8"/>
+    <circle cx="1066" cy="78" r="36" fill="#FFFFFF"/>
+  </g>
+  <path class="twinkle" d="M960 58 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4z" fill="#38BDF8"/>
+  <path class="twinkle" style="animation-delay:-1.5s" d="M1120 170 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z" fill="#FF7A1A"/>
+  <path class="twinkle" style="animation-delay:-.7s" d="M700 80 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z" fill="#38BDF8"/>
+
+  <!-- летучие мыши -->
+  <g fill="#38BDF8">
+    <path class="bat" d="M736 132c5-8 12-10 17-6 2-5 6-6 9-4 3-2 7-1 9 4 5-4 12-2 17 6-6-3-11-1-14 4-2-2-5-4-8-3-3-1-6 1-8 3-3-5-8-7-14-4z"/>
+    <path class="bat" style="animation-delay:-2.5s" d="M900 210c4-6 9-8 13-5 2-4 5-5 7-3 2-2 5-1 7 3 4-3 9-1 13 5-5-2-9-1-11 3-2-2-4-3-6-2-2-1-4 0-6 2-2-4-6-5-11-3z" opacity="0.8"/>
+    <path class="bat" style="animation-delay:-4.5s" d="M1110 230c3-4 6-5 9-3 1-3 3-3 5-2 1-1 3-1 5 2 3-2 6-1 9 3-4-1-6 0-8 2-1-1-3-2-4-1-1-1-3 0-4 1-2-2-4-3-8-2z" opacity="0.65"/>
+  </g>
+
+  <!-- тыква -->
+  <g class="float" style="animation-delay:-2s" filter="url(#shadow)">
+    <path d="M876 128c-2-18 6-30 20-36" stroke="#1E293B" stroke-width="9" stroke-linecap="round"/>
+    <path d="M896 98c14-10 30-8 38 2-14 4-26 4-38-2z" fill="#38BDF8"/>
+    <ellipse cx="826" cy="196" rx="58" ry="68" fill="url(#pumpkin)"/>
+    <ellipse cx="926" cy="196" rx="58" ry="68" fill="url(#pumpkin)"/>
+    <ellipse cx="876" cy="196" rx="62" ry="72" fill="url(#pumpkin)"/>
+    <path d="M876 126v140M836 134c-10 30-10 94 0 124M916 134c10 30 10 94 0 124" stroke="#E25E00" stroke-opacity="0.35" stroke-width="3"/>
+    <path d="M836 178l18-22 18 22z M880 178l18-22 18 22z" fill="#1E293B"/>
+    <path d="M832 212c10 22 78 22 88 0l-12 8-10-10-10 12-12-12-10 12-10-10-12 8z" fill="#1E293B"/>
+  </g>
 </svg>
