@@ -4,8 +4,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=22&duration=2600&pause=900&color=FF7A1A&center=true&vCenter=true&width=640&lines=%D0%9F%D0%B8%D1%88%D1%83+%D0%BA%D0%BE%D0%B4+%D1%81+10+%D0%BB%D0%B5%D1%82;%D0%94%D0%B5%D0%BB%D0%B0%D1%8E+%D0%B8%D0%B3%D1%80%D1%8B+%D0%B8+%D0%BC%D0%BE%D0%B4%D1%8B;%D0%9F%D0%B0%D1%8F%D1%8E+%D0%B8+%D0%BF%D1%80%D0%BE%D1%88%D0%B8%D0%B2%D0%B0%D1%8E+ESP32;C+%2F+C%2B%2B+%2F+Python+%2F+Java+%2F+JS" alt="Пишу код с 10 лет · Делаю игры и моды · Паяю и прошиваю ESP32 · C / C++ / Python / Java / JS"/>
 
-<a href="https://github.com/Lilux12?tab=followers"><img src="https://img.shields.io/github/followers/Lilux12?style=for-the-badge&label=подписчики&labelColor=FFF1E6&color=FF7A1A" alt="Подписчики"/></a>
-<img src="https://komarev.com/ghpvc/?username=Lilux12&style=for-the-badge&label=просмотры&color=38BDF8" alt="Просмотры профиля"/>
+<a href="https://github.com/Lilux12?tab=followers"><img src="https://img.shields.io/github/followers/Lilux12?style=for-the-badge&label=%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%B8&labelColor=FFF1E6&color=FF7A1A" alt="Подписчики"/></a>
+<img src="https://komarev.com/ghpvc/?username=Lilux12&style=for-the-badge&label=%D0%BF%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80%D1%8B&color=38BDF8" alt="Просмотры профиля"/>
 
 </div>
 
