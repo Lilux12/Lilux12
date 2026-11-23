@@ -12,11 +12,11 @@
   <text x="26" y="30" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2.5" fill="#FF7A1A">ЯЗЫКИ</text>
   <text x="469" y="30" text-anchor="end" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="10" fill="#94A3B8">по байтам кода</text>
 
-  <g clip-path="url(#langsClip)"><rect x="26.00" y="52" width="404.70" height="18" fill="#FF7A1A"/><rect x="431.70" y="52" width="21.20" height="18" fill="#38BDF8"/><rect x="453.90" y="52" width="8.57" height="18" fill="#FDBA74"/><rect x="463.48" y="52" width="4.24" height="18" fill="#0EA5E9"/><rect x="468.72" y="52" width="0.00" height="18" fill="#FFD7B5"/><rect x="469.72" y="52" width="-0.72" height="18" fill="#CBD5E1"/></g>
+  <g clip-path="url(#langsClip)"><rect x="26.00" y="52" width="403.32" height="18" fill="#FF7A1A"/><rect x="430.32" y="52" width="21.10" height="18" fill="#38BDF8"/><rect x="452.42" y="52" width="9.47" height="18" fill="#FDBA74"/><rect x="462.90" y="52" width="4.82" height="18" fill="#0EA5E9"/><rect x="468.72" y="52" width="0.00" height="18" fill="#FFD7B5"/><rect x="469.72" y="52" width="-0.72" height="18" fill="#CBD5E1"/></g>
   
   <circle cx="30" cy="98" r="4" fill="#FF7A1A"/>
   <text x="43" y="102" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="13" fill="#334155">JavaScript</text>
-  <text x="238" y="102" text-anchor="end" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="12" fill="#94A3B8">92%</text>
+  <text x="238" y="102" text-anchor="end" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="12" fill="#94A3B8">91%</text>
   <circle cx="259" cy="98" r="4" fill="#38BDF8"/>
   <text x="272" y="102" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="13" fill="#334155">Java</text>
   <text x="467" y="102" text-anchor="end" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', 'Noto Sans', Arial, sans-serif" font-size="12" fill="#94A3B8">5%</text>
